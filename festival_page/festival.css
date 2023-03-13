@@ -1,0 +1,49 @@
+/* BODY */
+body
+{
+	background-color: black;
+}
+
+
+/* VIDEO */
+
+.video
+{
+	display : block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.last-edition-button
+{
+	    /* call to action */
+
+		box-sizing: border-box;
+		background-color: black;
+	
+		/* Auto layout */
+	
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		padding: 13px 21px;
+		gap: 10px;
+	
+		position: absolute;
+		left: 70.14%;
+		right: 22.78%;
+		top: 70%;
+	
+		/* white */
+		border: 1px solid #FFFFFF;
+
+}
+
+.photo-cirque
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width : 80%
+}
