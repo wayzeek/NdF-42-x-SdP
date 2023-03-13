@@ -1,0 +1,203 @@
+header
+{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 1920px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Avenir';
+}
+
+/* Page content */
+.content
+{
+    padding: 16px;
+}
+  
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+  
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content
+{
+    padding-top: 102px;
+}
+
+.logo
+{
+    /* Vector */
+    position: absolute;
+    width : 80px;
+    height: 60px;
+    left: 3.5%;
+    right: 0%;
+    top: 32.5%;
+    bottom: 0%;
+}
+
+.button_ticket
+{
+    /* call to action */
+
+
+    box-sizing: border-box;
+    background-color: black;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 21px;
+    gap: 10px;
+
+    position: absolute;
+    width: 94px;
+    height: 44px;
+    left: 878px;
+    top: 35%;
+
+    /* white */
+
+    border: 1px solid #FFFFFF;
+
+}
+
+.button_panier
+{
+    /* BTN basket */
+
+
+    box-sizing: border-box;
+    background-color: black;
+
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 972px;
+    top: 35%;
+
+    border: 1px solid #FFFFFF;
+}
+
+.button_panier img
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.button_programme
+{
+    /* call to action */
+
+    box-sizing: border-box;
+    background-color: black;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 21px;
+    gap: 10px;
+
+    position: absolute;
+    left: 70.14%;
+    right: 22.78%;
+    top: 35%;
+
+    /* white */
+
+    border: 1px solid #FFFFFF;
+}
+
+.button_artistes
+{
+    /* call to action */
+
+    box-sizing: border-box;
+    background-color: black;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 21px;
+    gap: 10px;
+
+    position: absolute;
+    left: 77.17%;
+    right: 18.51%;
+    top: 35%;
+
+    /* white */
+
+    border: 1px solid #FFFFFF;
+}
+
+.button_festival
+{
+    /* call to action */
+
+    box-sizing: border-box;
+    background-color: black;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 21px;
+    gap: 10px;
+
+    position: absolute;
+    height: 44px;
+    width:105px;
+    left: 81.44%;
+    right: 13.56%;
+    top: 35%;
+    /* white */
+
+    border: 1px solid #FFFFFF;
+}
+
+.button_info
+{
+    /* call to action */
+
+    box-sizing: border-box;
+    background-color: black;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 21px;
+    gap: 10px;
+
+    position: absolute;
+    left: 86.41%;
+    right: 7.23%;
+    top: 35%;
+
+    /* white */
+
+    border: 1px solid #FFFFFF;
+}
