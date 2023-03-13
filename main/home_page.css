@@ -1,4 +1,4 @@
-header
+.header
 {
     position: absolute;
     background-color: black;
@@ -19,7 +19,7 @@ a
     text-align: center;
 }
 
-a:hover{
+.button:hover{
     display:block;
     width: 100%;
     text-decoration: none;
@@ -220,12 +220,123 @@ a:hover{
 
 .hero
 {
+    position: static;
+    width: fit-content;
+    height: fit-content;
+}
+
+.intro
+{
+    position: static;
+    color : black;
+    width: auto;
+    height: auto;
+    left: 100px;
+    font-family: 'Avenir';
+    font-size: 100px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.voir_artistes
+{
+    /* Titre H1 */
+
+    position: static;
+    color : black;
+    width: auto;
+    height: auto;
+    left: 1000px;
+
+    font-family: 'Avenir';
+    font-size: 100px;
+    font-weight: 300;
+
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+.lineup_scroll
+{
+    position: static;
+    display : flex;
+    background-color: white;
+    height: auto;
+    width: auto;
+    overflow-x: scroll;
+}
+
+.intro3
+{
+    position: static;
+    color : black;
+    width: auto;
+    height: auto;
+
+    font-family: 'Avenir';
+    font-size: 100px;
+    font-weight: 300;
+
+    text-align: left;
+    text-decoration-line: none;
+}
+
+.lien_intro
+{
+    display:block;
+    text-decoration: underline;
+    color: #C300D3;
+    font-family: 'Avenir';
+    text-align: left;
+}
+
+.button_billet
+{
+    /* call to action */
+
+
+    box-sizing: border-box;
+    background-color: white;
+    color:black;
+
+    /* Auto layout */
+
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    padding: 13px 21px;
+    gap: 10px;
+
     position: absolute;
+    width: 94px;
+    height: 43px;
+    left: calc(50% - 94px/2 + 380px);
+    top: 2395px;
+
+    /* black */
+
+    border: 1px solid #000000;
+}
+
+.button_billet:hover
+{
+    background-color: black;
+}
+
+.button2
+{
+    display:block;
     width: 100%;
-    height: auto;
-    left: 0px;
-    top: 90%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Avenir';
+}
+
+.button2:hover
+{
+    display:block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Avenir';
 }
