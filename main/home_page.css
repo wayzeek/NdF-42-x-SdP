@@ -3,45 +3,36 @@ header
     position: absolute;
     background-color: black;
     color: white;
-    padding: 20px;
-    width: 1920px;
-    height: 100px;
-    left: 0px;
-    top: 0px;
-}
+    padding: 2%;
+    width: 100%;
+    height: 10%;
+    left: 0;
+    top: 0;
+  }
+
 a
 {
+    display:block;
     text-decoration: none;
     color: white;
     font-family: 'Avenir';
+    text-align: center;
 }
 
-/* Page content */
-.content
-{
-    padding: 16px;
-}
-  
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky
-{
-    position: fixed;
-    top: 0;
-    width: 100%
-}
-  
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content
-{
-    padding-top: 102px;
+a:hover{
+    display:block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Avenir';
 }
 
 .logo
 {
     /* Vector */
     position: absolute;
-    width : 80px;
-    height: 60px;
+    width : auto;
+    height: auto;
     left: 3.5%;
     right: 0%;
     top: 32.5%;
@@ -74,6 +65,11 @@ a
 
     border: 1px solid #FFFFFF;
 
+}
+
+.button_ticket:hover
+{
+  background-color: white;
 }
 
 .button_panier
@@ -117,13 +113,18 @@ a
     gap: 10px;
 
     position: absolute;
-    left: 70.14%;
+    left: 70%;
     right: 22.78%;
     top: 35%;
 
     /* white */
 
     border: 1px solid #FFFFFF;
+}
+
+.button_programme:hover
+{
+  background-color: white;
 }
 
 .button_artistes
@@ -149,6 +150,11 @@ a
     /* white */
 
     border: 1px solid #FFFFFF;
+}
+
+.button_artistes:hover
+{
+  background-color: white;
 }
 
 .button_festival
@@ -177,6 +183,11 @@ a
     border: 1px solid #FFFFFF;
 }
 
+.button_festival:hover
+{
+  background-color: white;
+}
+
 .button_info
 {
     /* call to action */
@@ -193,11 +204,28 @@ a
     gap: 10px;
 
     position: absolute;
-    left: 86.41%;
+    left: 86%;
     right: 7.23%;
     top: 35%;
 
     /* white */
 
     border: 1px solid #FFFFFF;
+}
+
+.button_info:hover
+{
+  background-color: white;
+}
+
+.hero
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 90%;
 }
