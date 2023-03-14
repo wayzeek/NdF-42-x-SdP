@@ -1,0 +1,89 @@
+.button
+{
+    box-sizing: border-box;
+    background-color: black;
+
+    /* Auto layout */
+
+    display: flex;
+    text-decoration: none;
+    font-family: "Avenir"!important;
+    color:white;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 21px;
+    gap: 10px;
+
+    /* white */
+
+    border: 1px solid #FFFFFF;
+}
+
+.button:hover
+{
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 30px;
+}
+
+.navbar-brand
+{
+    margin-left: 4%!important;
+}
+
+.navig
+{
+    margin-right: 4%;
+}
+
+.intro
+{
+    position: static;
+    color : black;
+    width: 50%;
+    height: auto;
+    font-family: 'Avenir';
+    font-size: 100px;
+    font-weight: 300;
+    text-align: left!important;
+}
+
+.voir_artistes
+{
+    /* Titre H1 */
+
+    position: flex;
+    color : black;
+    width: 50%;
+    height: auto;
+
+    font-family: 'Avenir';
+    font-size: 100px;
+    font-weight: 300;
+
+    text-align: right!important;
+    text-decoration-line: underline;
+}
+
+.intro3
+{
+    position: static;
+    color : black;
+    width: auto;
+    height: auto;
+
+    font-family: 'Avenir';
+    font-size: 100px;
+    font-weight: 300;
+
+    text-decoration-line: none;
+}
+
+.lien_intro
+{
+    display:block;
+    text-decoration: underline;
+    color: #C300D3;
+    font-family: 'Avenir';
+    text-align: left;
+}
