@@ -4,6 +4,14 @@ body
 	background-color: black;
 }
 
+.container-grid	{
+	display: flex;
+	justify-content: space-between;
+	column-gap: 20px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* VIDEO */
 
@@ -39,11 +47,155 @@ body
 		border: 1px solid #FFFFFF;
 
 }
+/*SECTION ARTS*/
+.arts
+{
+
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.titre-art
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	font-size: 70px;
+	font-family: 'Avenir';
+}
+
+.block img
+{
+	width: 100%;
+	height: auto;
+
+}
+
+.block button,
+.block a
+{
+	width: 50%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	transition: all .3s;  
+
+}
+
+
+.block button:hover,
+.block a:hover
+{
+	width: 100%;
+	
+}
+
+.block
+{
+	width: 25%;
+	position : relative;
+}
+
+.block-1
+{
+	
+	display: inline-block;
+	height: 22.5%;
+	margin-left: 0%;
+}
+
+.block-2
+{
+	display: inline-block;
+	height: 22.5%;
+	margin-right: 0%;
+}
+
+
+.block-3
+{
+	display: inline-block;
+	height: 22.5%;
+	margin-left: 25%;
+}
+
+.block-4
+{
+	display: inline-block;
+	height: 22.5%;
+	margin-right: 12.5%;
+}
+
+.musique-button
+{
+	left: 0%;
+	position :absolute;
+}
+
+.theatre-button
+{
+	left: 0%;
+	position :absolute;
+}
+
+.opera-button
+{
+	margin-left: 25%;
+	position :absolute;
+}
+
+.danse-button
+{
+	margin-left: 75%;
+	position :absolute;
+}
+
+.texte
+{
+	font-size: 70px;
+	font-family: 'Avenir';
+}
+.citation
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+.auteur-citation
+{
+	font-size: 10px;
+	font-family: 'Avenir';
+}
+
+/*SECTION PHOTO */
 
 .photo-cirque
 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width : 80%
+	width : 80%;
+}
+
+/* SECTION EN QUELQUES MOTS*/
+.en-quelques-mots
+{
+	margin-left: auto;
+	margin-right: auto;
+	width : 80%;
+	background-color: #FFFFFF;
+}
+
+.mots
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	font-size: 70px;
+	font-family: 'Avenir';
 }
