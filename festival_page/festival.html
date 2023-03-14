@@ -14,12 +14,13 @@
 	<div class="header" id="myHeader">
         <img src="../assets/logo.png" class="logo" alt="logo"/>
         <nav>
-            <button class = "button_ticket"><a href="home_page.html" class = "button">Billetterie</a></button>
-            <button class = "button_panier"><a href="home_page.html" class = "button"><img src="../assets/basket.png"/></a></button>
-            <button class = "button_programme"><a href="home_page.html" class = "button">Programme 2023</a></button>
-            <button class = "button_artistes"><a href="../artist_page/artist_page.html" class = "button">Artistes</a></button>
-            <button class = "button_festival"><a href="../festival_page/festival.html" class = "button">Le festival</a></button>
-            <button class = "button_info"><a href="home_page.html" class = "button">Infos pratiques</a></button>
+            <button class = "button_ticket"><a href="home_page.html">Billetterie</a></button>
+            <button class = "button_panier"><a href="home_page.html"><img src="../assets/basket.png"/></a></button>
+            <button class = "button_programme"><a href="home_page.html">Programme 2023</a></button>
+            <button class ="button_artistes"><a href="home_page.html">Artistes</a></button>
+            <button class ="button_festival"><a href="home_page.html">Le festival</a></button>
+            <button class ="button_info"><a href="home_page.html">Infos pratiques</a></button>
+
         </nav>
     </div>
 
@@ -32,23 +33,37 @@
 		</div>
 	</section>
 
-	<section id="arts">
-		<div class="arts" width="80%">
-		<h1>Une ode au spectacle du vivant</h1>
-		
-		<button id="musique-button"></button>
-		<img id="musicien" src="../festival_page/assets/Mask group-3.png">
-		
-		<button id="theatre-button"></button>
-		<img id="theatre" src="../festival_page/assets/Mask group-1.png">
-		
-		<button id="opera-button"></button>
-		<img id="opera" src="../festival_page/assets/Mask group-2.png">
-		
-		<button id="danse-button"></button>
-		<img id="danseur" src="../festival_page/assets/Mask group-4.png">
-		
-		<h1>"Le festival affiche sa fringale d'audace et d'originalité"<span id="auteur-citation">Libération</span></h1>
+	<section class="arts-section">
+		<div class="arts">
+			<div class="titre-art">
+				<p>Une ode au spectacle du vivant</p>
+			</div>
+			<div class="container-grid">
+				<div class="block block-1">
+					<a class="button-art musique-button"><img src="../festival_page/assets/demi-lune-gauche.svg"></a>
+					<img class="image-1" src="../festival_page/assets/Mask group-3.png">
+				</div>
+				<div class="block block-2">
+					<a class="button-art theatre-button"><img src="../festival_page/assets/demi-lune-droite.svg"></a>
+					<img class="image-2" src="../festival_page/assets/Mask group-1.png">
+				</div>
+			</div>
+
+			<div class="container-grid">
+				<div class="block block-3">
+					<a class="button-art opera-button"><img src="../festival_page/assets/demi-lune-droite.svg"></a>
+					<img class="image-3" src="../festival_page/assets/Mask group-2.png">
+				</div>
+				
+				<div class="block block-4">
+					<a class="button-art danse-button"><img src="../festival_page/assets/demi-lune-droite.svg"></a>
+					<img class="image-4" src="../festival_page/assets/Mask group-4.png">
+				</div>
+			</div>
+			
+			<div class="citation">
+				<p class="texte">"Le festival affirme <br>sa fringale d'audace <br> et d'originalité"<span class="auteur-citation">Libération</span></h1>
+			</div>	
 		</div>
 	</section>
 
@@ -57,7 +72,31 @@
 	</section>
 
 	<section id="descriptions">
-		<div id="en-quelques-mots">
+		<div class="en-quelques-mots">
+			<p class="mots">En quelques mots</p>
+			<div class="container-grid">
+				<div class="block block-1">
+					<a class="button-art musique-button"><img src="../festival_page/assets/demi-lune-gauche.svg"></a>
+					<img class="image-1" src="../festival_page/assets/Mask group-3.png">
+				</div>
+				<div class="block block-2">
+					<a class="button-art theatre-button"><img src="../festival_page/assets/demi-lune-droite.svg"></a>
+					<img class="image-2" src="../festival_page/assets/Mask group-1.png">
+				</div>
+			</div>
+
+			<div class="container-grid">
+				<div class="block block-3">
+					<a class="button-art opera-button"><img src="../festival_page/assets/demi-lune-droite.svg"></a>
+					<img class="image-3" src="../festival_page/assets/Mask group-2.png">
+				</div>
+				
+				<div class="block block-4">
+					<a class="button-art danse-button"><img src="../festival_page/assets/demi-lune-droite.svg"></a>
+					<img class="image-4" src="../festival_page/assets/Mask group-4.png">
+				</div>
+			</div>
+
 			<button class="festival-contemporain">Un festival contemporain</button>
 			<button class="une-volonté-politique">Une volonté politique</button>
 			<button class="un-theatre-romain">Un théâtre romain</button>
