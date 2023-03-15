@@ -38,30 +38,26 @@
 
 .intro
 {
-    position: static;
-    color : black;
-    width: 50%;
-    height: auto;
     font-family: 'Avenir';
     font-size: 100px;
     font-weight: 300;
-    text-align: left!important;
+    grid-column-start: 1;
+    grid-column-end: span 6;
 }
 
 .voir_artistes
 {
     /* Titre H1 */
 
-    position: flex;
-    color : black;
-    width: 50%;
-    height: auto;
+    color : #C300D3;
 
     font-family: 'Avenir';
     font-size: 100px;
     font-weight: 300;
 
-    text-align: right!important;
+    text-align: right;
+    grid-column-start: 9;
+    grid-column-end: span 16;
     text-decoration-line: underline;
 }
 
@@ -86,4 +82,25 @@
     color: #C300D3;
     font-family: 'Avenir';
     text-align: left;
+}
+
+.lineup_scroll
+{
+    position: static;
+    display : flex;
+    background-color: white;
+    height: auto;
+    width: auto;
+    overflow-x: scroll;
+}
+
+.union
+{
+    margin-right: 760px;
+}
+
+.union2
+{
+    margin-left: 760px;
+    margin-right: 760px;
 }
