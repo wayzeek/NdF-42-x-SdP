@@ -8,7 +8,7 @@ body
 	display: flex;
 	justify-content: space-between;
 	column-gap: 20px;
-	width: 90%;
+	width: 89.6%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -21,7 +21,7 @@ body
 	display : block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 100%;
 }
 
 .last-edition-button
@@ -33,16 +33,18 @@ body
 	
 		/* Auto layout */
 	
-		display: flex;
+		display: inline-block;
 		flex-direction: row;
 		align-items: flex-start;
 		padding: 13px 21px;
 		gap: 10px;
 	
 		position: absolute;
-		left: 70.14%;
-		right: 22.78%;
-		top: 70%;
+		left: 50%;
+		right: auto;
+		top: 95%;
+		width: auto;
+		transform: translate(-50%, -50%);
 	
 		/* white */
 		border: 1px solid #FFFFFF;
@@ -55,13 +57,15 @@ body
 	background-color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 100%;
 }
 
 .titre-art
 {
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	width: 80%;
 	font-size: 70px;
 	font-family: 'Avenir';
@@ -79,13 +83,21 @@ body
 {
 	width: 50%;
 	height: auto;
-	margin: 0;
-	padding: 0;
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
 	transition: all .3s;  
 
+}
+
+.hide-button-musique
+{
+	display: none;
+	width: 50%;
+	height: auto;
+	background-color: transparent;
+	border: none;
+	position : absolute;
 }
 
 
@@ -122,8 +134,14 @@ body
 {
 	display: inline-block;
 	height: 22.5%;
-	margin-left: 25%;
 }
+
+
+.image-3
+{
+	margin-left: 100%;
+}
+
 
 .block-4
 {
@@ -136,6 +154,31 @@ body
 {
 	left: 0%;
 	position :absolute;
+	border-radius: 9999px 0 0 9999px;
+	z-index: 1;
+	background-color: black !important;
+	inset: 0;
+}
+
+.musique-button:hover {
+	background-color: orange !important;
+
+}
+
+.musique-button span {
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: x-large;
+	opacity: 0;
+
+}
+
+.musique-button:hover span {
+	opacity: 100;
+
+	
 }
 
 .theatre-button
@@ -146,13 +189,13 @@ body
 
 .opera-button
 {
-	margin-left: 25%;
+	margin-left: 50%;
 	position :absolute;
 }
 
 .danse-button
 {
-	margin-left: 75%;
+	margin-left: 50%;
 	position :absolute;
 }
 
@@ -160,11 +203,16 @@ body
 {
 	font-size: 70px;
 	font-family: 'Avenir';
+	margin-top: 100px;
+	margin-bottom: 100px;
+
 }
 .citation
 {
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	width: 80%;
 }
 .auteur-citation
@@ -180,7 +228,7 @@ body
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width : 80%;
+	width : 100%;
 }
 
 /* SECTION EN QUELQUES MOTS*/
@@ -188,7 +236,9 @@ body
 {
 	margin-left: auto;
 	margin-right: auto;
-	width : 80%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width : 100%;
 	background-color: #FFFFFF;
 }
 
