@@ -3,21 +3,54 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Deux colonnes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>artist page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="home_page.css">
+
+    <link rel="shortcut icon" href="../assets/logo_black.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
 <body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg py-5 navbar-dark bg-black">
+        <a class="navbar-brand" href="#">
+            <img src="../assets/logo.png" width="86.09" height="70" alt="">
+        </a>
+        <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="nav-link" href="#_"><i class="fa fa-search mr-1"></i></a> 
+        <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+            <ul class="navbar-nav mx-auto text-md-center text-left">
+                 <li class="nav-item">
+                    <a class="button" href="#">Billetterie</a> 
+                  </li>
+              </ul>
+              <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap navig">
+                <li class="nav-item">
+                   <a class="button" href="#">Programme 2023</a> 
+                </li>
+                <li class="nav-item">
+                  <a class="button" href="#">Le festival</a> 
+                </li>
+                <li class="nav-item">
+                  <a class="button" href="#">Infos pratiques</a> 
+                </li>
+              </ul>
+          </div>
+      </nav>
 
     <section id="main">
         <div class="grid">
 
           <div class="col-left">
               <div class="image-container">
-                  <img src="Mask group.png" alt="Image 1">
-                  <img src="Ellipse 16.svg" alt="Image 2">
-              </div>
+                  <img src="../assets/Mask group.png" alt="Image 1", width="500px" height="320">
+                  <img src="../assets/Ellipse 16.svg" alt="Image 2", width="150px">
+          </div>
               <div>
                 <p class ="haut">"Un spectacle qui croque l'époque avec justesse et drôlerie"<span class = "texte">Télérama</span></p>
               </div>
@@ -25,8 +58,11 @@
 
           <div class="col-right">
               <h2>Florence Foresti</h2>
-              <h3>Boys Boys Boys</h3>
-              <p class="date">Du 25 au 30 Juin</p>
+              <p class ="h3">Boys Boys Boys</p>
+              <div style="text-align: right;">
+                <p>Du 25 au 30 juin</p>
+              </div>
+              
               <p>Florence Foresti revient avec son nouveau seule-en-scène intitulé Boys Boys Boys. Avec son incroyable énergie, son sens aigu du rythme et de la formule, elle capte l’attention et déclenche l’hilarité. (Le Monde) À l’heure où « les femmes n’ont plus besoin des hommes », mais « juste envie » pour celles qui le souhaitent, elle viendra sur la scène du Grand théâtre leur livrer une magnifique déclaration d’amour.</p>
 
               <div class="container">
@@ -34,7 +70,7 @@
                 <div class="toto">
                     <span class="price">62 €</span>
                     <span class="area">
-                        <img src="Union.png" alt="" style="width: 10px;">
+                        <img src="../assets/Union.png" alt="" style="width: 10px;">
                         Grand Théâtre
                     </span>
                     <img src="" alt="" style="width: 20px;">
@@ -48,7 +84,7 @@
                 <div class="toto">
                     <span class="price">62 €</span>
                     <span class="area">
-                        <img src="Union.png" alt="" style="width: 10px;">
+                        <img src="../assets/Union.png" alt="" style="width: 10px;">
                         Grand Théâtre
                     </span>
                     <img src="" alt="" style="width: 20px;">
@@ -62,21 +98,7 @@
                 <div class="toto">
                     <span class="price">62 €</span>
                     <span class="area">
-                        <img src="Union.png" alt="" style="width: 10px;">
-                        Grand Théâtre
-                    </span>
-                    <img src="" alt="" style="width: 20px;">
-                </div>
-            </div>
-
-            <br>
-            
-            <div class="container">
-                <time>Dim 25 Juin / 21h45</time>
-                <div class="toto">
-                    <span class="price">62 €</span>
-                    <span class="area">
-                        <img src="Union.png" alt="" style="width: 10px;">
+                        <img src="../assets/Union.png" alt="" style="width: 10px;">
                         Grand Théâtre
                     </span>
                     <img src="" alt="" style="width: 20px;">
@@ -90,7 +112,21 @@
                 <div class="toto">
                     <span class="price">62 €</span>
                     <span class="area">
-                        <img src="Union.png" alt="" style="width: 10px;">
+                        <img src="../assets/Union.png" alt="" style="width: 10px;">
+                        Grand Théâtre
+                    </span>
+                    <img src="" alt="" style="width: 20px;">
+                </div>
+            </div>
+
+            <br>
+            
+            <div class="container">
+                <time>Dim 25 Juin / 21h45</time>
+                <div class="toto">
+                    <span class="price">62 €</span>
+                    <span class="area">
+                        <img src="../assets/Union.png" alt="" style="width: 10px;">
                         Grand Théâtre
                     </span>
                     <img src="" alt="" style="width: 20px;">
@@ -98,10 +134,10 @@
 
             </div>
             <div class ="call">
-            <img src="call to action.svg" alt="" style="width: 200px;">
+            <img src="../assets/call to action.svg" alt="" style="width: 150px;">
             </div>
             <div class="bandeau">
-              <img src="Mask group-1.png" alt="" style="width: 500px;">
+              <img src="../assets/Mask group-1.png" alt="" style="width: 500px;">
             </div>
             </div>
               
