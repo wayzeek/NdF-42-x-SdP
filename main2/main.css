@@ -12,6 +12,28 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 13px 21px;
+    justify-content: space-between;
+
+    /* white */
+
+    border: 1px solid #FFFFFF;
+}
+
+.button2
+{
+    box-sizing: border-box;
+    background-color: white;
+
+    /* Auto layout */
+
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Avenir"!important;
+    color:black;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 21px;
     gap: 10px;
 
     /* white */
@@ -180,6 +202,7 @@
 {
     background-color: black;
     border-radius: 30px;
+
 }
 .button_ticket:hover a
 {
@@ -189,19 +212,30 @@
     color:white;
 }
 
-.diurne
-{
+.container1 {
     margin-top: 85px;
-}
+    margin-left: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .col1 {
+    margin-left: 3%;
+    float: left;
+    width: 40%;
+  }
+  
+  .col2 {
+    float: right;
+    width: 57%;
+  }
 
-.image1
-{
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
+  .diurne
+  {
+    margin-top: 85px;
+  }
 
-.image2
-{
-    grid-column-start: 10;
-    grid-column-end: 15;
-}
+  .theatre
+  {
+    margin-top: 85px;
+  }
