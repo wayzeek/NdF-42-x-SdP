@@ -38,6 +38,8 @@
 
 .intro
 {
+    margin-top: 100px;
+    margin-bottom: 100px;
     font-family: 'Avenir';
     font-size: 100px;
     font-weight: 300;
@@ -54,6 +56,7 @@
     font-family: 'Avenir';
     font-size: 100px;
     font-weight: 300;
+    margin-top: 85px;
 
     text-align: right;
     grid-column-start: 9;
@@ -63,15 +66,29 @@
 
 .intro3
 {
-    position: static;
     color : black;
-    width: auto;
-    height: auto;
-
+ 
     font-family: 'Avenir';
     font-size: 100px;
     font-weight: 300;
 
+    margin-top: 10%;
+    grid-column-start: 1;
+    grid-column-end: span 10;
+    text-decoration-line: none;
+}
+
+.intro4
+{
+    color : black;
+ 
+    font-family: 'Avenir';
+    font-size: 100px;
+    font-weight: 300;
+
+    grid-column-start: 1;
+    margin-top: 0;
+    grid-column-end: span 10;
     text-decoration-line: none;
 }
 
@@ -88,10 +105,31 @@
 {
     position: static;
     display : flex;
+    flex-direction: column;
     background-color: white;
     height: auto;
     width: auto;
     overflow-x: scroll;
+}
+
+.row1
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    padding: 0;
+}
+
+.row2
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    padding: 0;
 }
 
 .union
@@ -99,8 +137,71 @@
     margin-right: 760px;
 }
 
+.union3
+{
+    margin-right: 437px;
+}
+
 .union2
 {
-    margin-left: 760px;
-    margin-right: 760px;
+    margin-left: 437px;
+    margin-right: 437px;
+}
+
+.button_ticket
+{
+    box-sizing: border-box;
+    background-color: white;
+
+    /* Auto layout */
+
+    display: flex;
+    align-items: flex-start;
+    height: 47px;
+    padding: 13px 21px;
+    gap: 10px;
+    margin-top: 50%;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    top: 95px;
+	
+	/* white */
+	border: 1px solid black;
+}
+.button_ticket a
+{
+    display: flex;
+    text-decoration: none;
+    font-family: "Avenir"!important;
+    color:black;
+}
+
+.button_ticket:hover
+{
+    background-color: black;
+    border-radius: 30px;
+}
+.button_ticket:hover a
+{
+    display: flex;
+    text-decoration: none;
+    font-family: "Avenir"!important;
+    color:white;
+}
+
+.diurne
+{
+    margin-top: 85px;
+}
+
+.image1
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.image2
+{
+    grid-column-start: 10;
+    grid-column-end: 15;
 }
