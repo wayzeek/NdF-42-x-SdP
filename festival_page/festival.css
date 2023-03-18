@@ -50,6 +50,14 @@
 		border: 1px solid #FFFFFF;
 
 }
+
+.last-edition-button a
+{
+	color:white;
+	text-decoration: none;
+}
+
+
 /*SECTION ARTS*/
 .arts
 {
